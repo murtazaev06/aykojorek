@@ -90,7 +90,7 @@ setInterval(createHeart, 400);
 const music = new Audio("./assets/music.mp3");
 
 music.loop = true;
-music.volume = 0.5;
+music.volume = 0.2;
 
 // браузеры требуют действие пользователя
 function startMusic() {
